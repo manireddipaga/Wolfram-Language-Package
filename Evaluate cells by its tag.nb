@@ -1,0 +1,176 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      5668,        168]
+NotebookOptionsPosition[      3922,        121]
+NotebookOutlinePosition[      4854,        151]
+CellTagsIndexPosition[      4766,        145]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Evaluate cells by its tag", "Section",
+ CellChangeTimes->{{3.9338982179235153`*^9, 
+  3.933898246166687*^9}},ExpressionUUID->"f1dab1ae-637e-7b4d-bd28-\
+f6c00a980912"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+  "tag", " ", "the", " ", "cells", " ", "you", " ", "want", " ", "to", " ", 
+   "evlauate", " ", 
+   RowBox[{"(", 
+    RowBox[{
+    "select", " ", "the", " ", "cell", " ", "and", " ", "using", " ", "Cell", 
+     " ", "option", " ", "on", " ", "toorbar", " ", "to", " ", "create", " ", 
+     "a", " ", "tag"}], ")"}], " ", "and", " ", "use", " ", "the", " ", "tag",
+    " ", "name", " ", "in", " ", "the", " ", "following", " ", "code", " ", 
+   "to", " ", "evaluate", " ", "it"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9339015340250797`*^9, 
+  3.93390163201705*^9}},ExpressionUUID->"df7b0044-4842-564e-8930-\
+fef5cbf121e7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"x", "=", 
+  RowBox[{
+   RowBox[{"2", " ", "y"}], "+", "t"}]}]], "Input",
+ CellChangeTimes->{{3.9338981279895134`*^9, 3.9338981370757294`*^9}},
+ CellTags->"tag1",
+ CellLabel->
+  "In[896]:=",ExpressionUUID->"4f8a0fc7-71f1-1843-a34d-2fb926ee637c"],
+
+Cell[BoxData[
+ RowBox[{"t", "+", 
+  RowBox[{"2", " ", "y"}]}]], "Output",
+ CellChangeTimes->{
+  3.9338981897117577`*^9, {3.9338986349282665`*^9, 3.9338986368197727`*^9}, 
+   3.9338997763877563`*^9, 3.9339009754262257`*^9},
+ CellTags->"tag1",
+ CellLabel->
+  "Out[896]=",ExpressionUUID->"1aaecf21-aa2b-2745-9d72-5ce7196bd2fe"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"mani", "=", 
+  RowBox[{"x", "+", 
+   RowBox[{"2", " ", "y"}]}]}]], "Input",
+ CellChangeTimes->{{3.9338985470380154`*^9, 3.933898557842884*^9}},
+ CellTags->"mani",
+ CellLabel->
+  "In[903]:=",ExpressionUUID->"21e5a618-6fca-634f-b750-f03d37a1bd50"],
+
+Cell[BoxData[
+ RowBox[{"t", "+", 
+  RowBox[{"4", " ", "y"}]}]], "Output",
+ CellChangeTimes->{
+  3.933898561854521*^9, {3.933898682560604*^9, 3.9338986905301933`*^9}, {
+   3.9338997764475574`*^9, 3.933899776622095*^9}, {3.933900975527521*^9, 
+   3.933900975790886*^9}},
+ CellTags->"mani",
+ CellLabel->
+  "Out[903]=",ExpressionUUID->"a76507c5-1cc5-c94c-9488-fc7916ed047d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"nb", "=", 
+   RowBox[{"EvaluationNotebook", "[", "]"}]}], ";"}], "\n", 
+ RowBox[{"NotebookFind", "[", 
+  RowBox[{"nb", ",", "\"\<mani\>\"", ",", "All", ",", "CellTags"}], 
+  "]"}], "\n", 
+ RowBox[{"SelectionEvaluate", "[", "nb", "]"}]}], "Input",
+ CellChangeTimes->{{3.933898119648836*^9, 3.933898119649847*^9}, {
+  3.9338986456377316`*^9, 3.933898680731798*^9}},
+ CellLabel->
+  "In[898]:=",ExpressionUUID->"0da81847-aa28-674f-91ed-620fd11a03a2"],
+
+Cell[BoxData[
+ RowBox[{"NotebookSelection", "[", 
+  TemplateBox[<|
+   "obj" -> NotebookObject[
+     "db2033e0-6f47-a542-b70c-59f979bc6251", 
+      "38514beb-ecdb-6a47-b051-57bfe9f39ade"], "label" -> 
+    "\"Evaluate cells by its tag.nb\"", "tooltip" -> 
+    "\"D:\\\\Sem 12\\\\Explore MATHEMATICA\\\\Evaluate cells by its tag.nb\""|>,
+   "NotebookObjectUUIDs"], "]"}]], "Output",
+ CellChangeTimes->{
+  3.93389812142457*^9, {3.9338981706467648`*^9, 3.933898189619772*^9}, {
+   3.933898634880642*^9, 3.9338986904648037`*^9}, 3.933899776527918*^9, 
+   3.9339009756500874`*^9},
+ CellLabel->
+  "Out[899]=",ExpressionUUID->"e96eb333-978e-c24b-b912-41b267d3c407"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1428, 735.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"db2033e0-6f47-a542-b70c-59f979bc6251"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "tag1"->{
+  Cell[1442, 45, 268, 7, 28, "Input",ExpressionUUID->"4f8a0fc7-71f1-1843-a34d-2fb926ee637c",
+   CellTags->"tag1"],
+  Cell[1713, 54, 324, 8, 32, "Output",ExpressionUUID->"1aaecf21-aa2b-2745-9d72-5ce7196bd2fe",
+   CellTags->"tag1"]},
+ "mani"->{
+  Cell[2074, 67, 269, 7, 28, "Input",ExpressionUUID->"21e5a618-6fca-634f-b750-f03d37a1bd50",
+   CellTags->"mani"],
+  Cell[2346, 76, 370, 9, 32, "Output",ExpressionUUID->"a76507c5-1cc5-c94c-9488-fc7916ed047d",
+   CellTags->"mani"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"tag1", 4268, 132},
+ {"mani", 4511, 137}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 172, 3, 66, "Section",ExpressionUUID->"f1dab1ae-637e-7b4d-bd28-f6c00a980912"],
+Cell[751, 27, 666, 14, 28, "Input",ExpressionUUID->"df7b0044-4842-564e-8930-fef5cbf121e7"],
+Cell[CellGroupData[{
+Cell[1442, 45, 268, 7, 28, "Input",ExpressionUUID->"4f8a0fc7-71f1-1843-a34d-2fb926ee637c",
+ CellTags->"tag1"],
+Cell[1713, 54, 324, 8, 32, "Output",ExpressionUUID->"1aaecf21-aa2b-2745-9d72-5ce7196bd2fe",
+ CellTags->"tag1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2074, 67, 269, 7, 28, "Input",ExpressionUUID->"21e5a618-6fca-634f-b750-f03d37a1bd50",
+ CellTags->"mani"],
+Cell[2346, 76, 370, 9, 32, "Output",ExpressionUUID->"a76507c5-1cc5-c94c-9488-fc7916ed047d",
+ CellTags->"mani"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2753, 90, 482, 11, 66, "Input",ExpressionUUID->"0da81847-aa28-674f-91ed-620fd11a03a2"],
+Cell[3238, 103, 656, 14, 45, "Output",ExpressionUUID->"e96eb333-978e-c24b-b912-41b267d3c407"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
